@@ -1,5 +1,5 @@
-FROM debian
-MAINTAINER Joern Hees
+FROM ubuntu:14.04
+MAINTAINER Stephen Olesen <slepp@slepp.ca>
 
 RUN apt-get update && apt-get install -y \
 		build-essential \
